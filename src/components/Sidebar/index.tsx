@@ -41,7 +41,7 @@ export function Sidebar() {
       id: "DASHBOARD",
       label: "Dashboard",
       icon: <AiOutlineHome />,
-      to: "/",
+      to: "/dashboard",
       notification: 0,
     },
     {
