@@ -13,7 +13,7 @@ export function RoutesForPages() {
         path="/"
         element={
           <Layout>
-            <Dashboard />
+            <Login />
           </Layout>
         }
       />
