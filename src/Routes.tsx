@@ -10,15 +10,6 @@ export function RoutesForPages() {
   return (
     <Routes>
       <Route
-        path="/"
-        element={
-          <Layout>
-            <Login />
-          </Layout>
-        }
-      />
-
-      <Route
         path="/dashboard"
         element={
           <Layout>
@@ -37,6 +28,7 @@ export function RoutesForPages() {
           </ProtectedLayout>
         }
       />
+      <Route path="/" element={<Login />} />
       <Route path="/login" element={<Login />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="*" element={<Login />} />
